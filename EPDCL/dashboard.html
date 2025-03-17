@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPDCL</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="C:\Users\mesan\Downloads\Full logo.svg" alt="Logo">
+        </div>
+        <ul>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#bills">My Bills</a></li>
+            <li><a href="#payments">Payments</a></li>
+            <li><a href="#energy">Energy Usage</a></li>
+            <li><a href="#smdetails">Smart Meter Details</a></li>
+            <li><a href="#notifications">Notifications & Alerts</a></li>
+            <li><a href="#customer">Customer Grievances</a></li>
+            <li><a href="#info">Information Hub</a></li>
+        </ul>
+        <div class="user-info">
+            <div class="avatar">NR</div>
+            <p>Narasimha Reddy<br><span>Id: 1722119901</span></p>
+        </div>
+    </div>
+    <div>
+     <div id="dashboard" class="main-content">
+            <h2>Hello Narasimha, Welcome to EPDCL🎉</h2>
+            <p>Explore electric bills, past payments and energy usage</p>
+            <div class="card-overview">
+                <div class="info-box">
+                    <h4>Service No:</h4>
+                    <select>
+                        <option value="1722119901">1722119901</option>
+                        <option value="1722119902">1722119902</option>
+                    </select>
+                </div>
+                <div class="info-box">
+                    <h4>Consumer Name:</h4>
+                    <p>Narasimha Misani</p>
+                </div>    
+                <div class="info-box">
+                    <h4>Category:</h4>
+                    <p>Domestic</p>
+                </div>
+        
+                <div class="info-box">
+                    <h4>Last Payment Details</h4>
+                    <p>Last Payment Amount: 4682.00</p>
+                    <p>Last Payment Date: 25-02-2025</p>
+                </div>
+                <div class="info-box">
+                    <h4>Outstanding Details</h4>
+                    <p>Outstanding Amount: No dues</p>
+                    <p>Due Date to Pay: No dues</p>
+                </div>
+                <div class="info-box">
+                    <h4>Meter and Ticket Status</h4>
+                    <p>Power status: Active</p>
+                    <p>Open Tickets: None</p>
+                </div>
+            </div>
+   
+    
+        <div class="grid">
+                <div class="card">
+                    <h3>Consumption Pattern</h3>
+                    <table>
+                        <tr><th>Bill Date</th><th>Units</th><th>Amount</th><th>Due Date</th></tr>
+                        <tr><td>03-02-25</td><td>320</td><td>2759</td><td>19-02-25</td></tr>
+                        <tr><td>02-01-25</td><td>300</td><td>2766</td><td>19-01-25</td></tr>
+                        <tr><td>02-12-24</td><td>380</td><td>3300</td><td>19-12-24</td></tr>
+                        <tr><td>04-11-24</td><td>240</td><td>2466</td><td>18-11-25</td></tr>
+                        <tr><td>04-10-24</td><td>410</td><td>3680</td><td>18-10-25</td></tr>
+                    </table>
+                </div>
+                <div class="card">
+                    <h3>Payment History</h3>
+                    <table>
+                        <tr><th>Paid Date</th><th>Amount</th><th>Receipt No</th><th>Source</th></tr>
+                        <tr><td>10-02-25</td><td>4682</td><td>987654321</td><td>Phone-pe</td></tr>
+                        <tr><td>10-01-25</td><td>2766</td><td>876543210</td><td>Phone-pe</td></tr>
+                        <tr><td>22-12-24</td><td>3200</td><td>833525641</td><td>Phone-pe</td></tr>
+                        <tr><td>24-11-24</td><td>2935</td><td>803542389</td><td>Phone-pe</td></tr>
+                        <tr><td>22-10-24</td><td>3890</td><td>798652348</td><td>Phone-pe</td></tr>
+                    </table>
+                </div>
+            </div>
+    </div>
+    <div id="bills" class="bills-container">
+        <h2>My Bills and Billing History</h2>
+    
+        <div class="details">
+            <h4>Service No:</h4>
+            <select>
+                <option value="1722119901">1722119901</option>
+                <option value="1722119902">1722119902</option>
+            </select>
+    
+            <h4>Year:</h4>
+            <select>
+                <option value="2025">2025</option>
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>        
+            </select>
+    
+            <h4>Consumer Name:</h4>
+            <p>Narasimha Misani</p>
+    
+            <h4>Category:</h4>
+            <p>Domestic</p>
+        </div>
+    
+        <div class="table">
+            <table>
+                <tr>
+                    <th>Meter status</th>
+                    <th>Date of Reading</th>
+                    <th>Open Reading</th>
+                    <th>Close Reading</th>
+                    <th>Net units</th>
+                    <th>Bill Amount</th>
+                    <th>Bill Due Date</th>
+                </tr>
+                <tr><td>ACTIVE</td><td>02-01-2024</td><td>7261</td><td>7632</td><td>345</td><td>3260</td><td>17-01-2024</td></tr>
+                <tr><td>ACTIVE</td><td>02-02-2024</td><td>7635</td><td>7993</td><td>345</td><td>3560</td><td>17-02-2024</td></tr>
+                <tr><td>ACTIVE</td><td>02-03-2024</td><td>7793</td><td>8321</td><td>345</td><td>2608</td><td>17-03-2024</td></tr>
+                <tr><td>ACTIVE</td><td>02-04-2024</td><td>8321</td><td>8635</td><td>345</td><td>3285</td><td>17-04-2024</td></tr>
+                <tr><td>ACTIVE</td><td>02-05-2024</td><td>8635</td><td>8963</td><td>345</td><td>2936</td><td>17-05-2024</td></tr>
+                <tr><td>ACTIVE</td><td>02-06-2024</td><td>8963</td><td>9210</td><td>345</td><td>3652</td><td>17-06-2024</td></tr>
+                <tr><td>ACTIVE</td><td>02-07-2024</td><td>9210</td><td>9532</td><td>345</td><td>3523</td><td>17-07-2024</td></tr>
+                <tr><td>ACTIVE</td><td>02-08-2024</td><td>9532</td><td>9834</td><td>345</td><td>3654</td><td>17-08-2024</td></tr>
+            </table>
+        </div>
+    </div>
+    <div id="payments" class="payments-container">
+            <h2>Payments History</h2>
+        <div class="details">
+            <h4>Service No:</h4>
+            <select>
+                <option value="1722119901">1722119901</option>
+                <option value="1722119902">1722119902</option>
+            </select>
+    
+            <h4>Year:</h4>
+            <select>
+                <option value="2025">2025</option>
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>        
+            </select>
+    
+            <h4>Consumer Name:</h4>
+            <p>Narasimha Misani</p>
+    
+            <h4>Category:</h4>
+            <p>Domestic</p>
+        </div>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>Amount Paid</th>
+                    <th>Receipt No</th>
+                    <th>Paid Date</th>
+                    <th>Payment Mode</th>
+                    <th>Paid At</th>
+                    <th>Status</th>
+                </tr>
+                <tr><td>2500</td><td>36251</td><td>16-01-24</td><td>UPI</td><td>PTM</td><td>success</td></tr>
+                <tr><td>3500</td><td>37564</td><td>17-02-24</td><td>UPI</td><td>BILLDESK</td><td>success</td></tr>
+                <tr><td>2800</td><td>38251</td><td>16-03-24</td><td>UPI</td><td>BILLDESK</td><td>success</td></tr>
+                <tr><td>3200</td><td>39201</td><td>18-04-24</td><td>Credit Card</td><td>PTM</td><td>success</td></tr>
+                <tr><td>4100</td><td>40235</td><td>15-05-24</td><td>UPI</td><td>WEB-SBIEPAY</td><td>success</td></tr>
+                <tr><td>3650</td><td>41562</td><td>17-06-24</td><td>Debit Card</td><td>BILLDESK</td><td>success</td></tr>
+                <tr><td>3700</td><td>42355</td><td>16-07-24</td><td>Credit Card</td><td>PTM</td><td>success</td></tr>
+                <tr><td>2853</td><td>43652</td><td>19-08-24</td><td>UPI</td><td>PTM</td><td>success</td></tr>
+            </table>
+        </div>
+        <div class="analysis-box">
+            <div class="analysis">
+                <p>Most Used Payment Mode</p>
+                <h3>UPI(5)</h3>
+            </div>
+            <div class="analysis">
+                <p>Highest Payment of 2024</p>
+                <h3>4100</h3>
+            </div>
+            <div class="analysis">
+                <p>Least Payment of 2024</p>
+                <h3>2500</h3>
+            </div>
+
+        </div>
+    
+    </div>    
+    <div id="energy" class="energy-container">
+            <h2>Energy Usage</h2>
+            <div class="details1">
+                <h4>Service No:</h4>
+                <select>
+                    <option value="1722119901">1722119901</option>
+                    <option value="1722119902">1722119902</option>
+                </select>
+
+
+                <h4>Month:</h4>
+                <select>
+                    <option value="Jan">Jan</option>
+                    <option value="feb">Feb</option>
+                    <option value="mar">Mar</option>
+                    <option value="apr">Apr</option>
+                    <option value="may">May</option>
+                    <option value="June">June</option>
+                    <option value="july">July</option>
+                    <option value="aug">Aug</option>
+                    <option value="sep">Sep</option>
+                    <option value="oct">Oct</option>
+                    <option value="nov">Nov</option>
+                    <option value="dec">Dec</option>
+                </select>
+        
+                <h4>Year:</h4>
+                <select>
+                    <option value="2025">2025</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>        
+                </select>
+        
+                <h4>Consumer Name:</h4>
+                <p>Narasimha Misani</p>
+        
+                <h4>Category:</h4>
+                <p>Domestic</p>
+            </div>
+            <div class="stats-box">
+                <div class="stat">
+                    <p>Total Consumption (Mar'25)</p>
+                    <h4>365 KWh or Units</h4>
+                </div>
+                <div class="stat">
+                    <p>Estimated bill for Mar'25</p>
+                    <h4>₹ 5735.20</h4>
+                </div>
+                <div class="stat">
+                    <p>Average Daily Consumption</p>
+                    <h4>11.48 KWh/day</h4>
+                </div>
+                <div class="stat">
+                    <p>Current vs. Last Month</p>
+                    <h4>6.25%</h4>
+                </div>
+            </div>
+            <div class="table">
+                <table>
+                    
+                    <tr>
+                        <th>Amount Paid</th>
+                        <th>Receipt No</th>
+                        <th>Paid Date</th>
+                        <th>Payment Mode</th>
+                        <th>Paid At</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr><td>2500</td><td>36251</td><td>16-01-24</td><td>UPI</td><td>PTM</td><td>success</td></tr>
+                    <tr><td>3500</td><td>37564</td><td>17-02-24</td><td>UPI</td><td>BILLDESK</td><td>success</td></tr>
+                    <tr><td>2800</td><td>38251</td><td>16-03-24</td><td>UPI</td><td>BILLDESK</td><td>success</td></tr>
+                    <tr><td>3200</td><td>39201</td><td>18-04-24</td><td>Credit Card</td><td>PTM</td><td>success</td></tr>
+                    <tr><td>4100</td><td>40235</td><td>15-05-24</td><td>UPI</td><td>WEB-SBIEPAY</td><td>success</td></tr>
+                    <tr><td>3650</td><td>41562</td><td>17-06-24</td><td>Debit Card</td><td>BILLDESK</td><td>success</td></tr>
+                    <tr><td>3700</td><td>42355</td><td>16-07-24</td><td>Credit Card</td><td>PTM</td><td>success</td></tr>
+                    <tr><td>2853</td><td>43652</td><td>19-08-24</td><td>UPI</td><td>PTM</td><td>success</td></tr>
+                </table>
+            </div>
+           
+    </div>
+    <div id="smdetails" class="smdetails-container">
+        <h2>Smart Meter Details</h2>
+            <div class="header">
+                <div class="header-item">
+                <h4>Service No:</h4>
+                <select>
+                    <option value="1722119901">1722119901</option>
+                    <option value="1722119902">1722119902</option>
+                </select>
+                </div>
+                <div class="header-item">
+                   <h4>Consumer Name:</h4>
+                   <P>Narasimha Misani</P>
+                </div>
+
+                <div class="header-item">
+                   <h4>Category:</h4>
+                   <p>Domestic</p>
+                </div>   
+            </div>
+        <div class="details">
+            <div class="left">
+                <h3>Meter Details &gt;</h3>
+                <h6>Meter ID: <b>LNT254605</b></h6>
+                <h6>Circle: <b>Kadapa</b></h6>
+                <h6>Sub Division: <b>Proddatur</b></h6>
+                <h6>Section:<b> Mydukur</b></h6>
+                <h6>Installation Date: <b>02-09-2024</b></h6>
+                <h6>Connected Load: <b>5 HP</b></h6>
+                <h6>Contracted Load: <b>3 HP</b></h6>
+                <h6>Connection Type: <b>Bi-directional Gross</b></h6>
+            </div>
+            <div class="left">
+                <h3>Customer Details &gt;</h3>
+                <h6>Address Line 1: <b>Flat No: 401, Vagwi Heights</b></h6>
+                <h6>Address Line 2: <b>Sai Nagar,Pdtr</b></h6>
+                <h6>City: <b>Proddatur</b></h6>
+                <h6>State: <b>Andhra Pradesh</b></h6>
+                <h6>Pincode: <b>516360</b></h6>
+            </div>
+            <div class="right">
+                <h6>Meter Make: <b>LNT</b></h6>
+                <h6>Division:<b> Kadapa</b></h6>
+                <h6>Distribution Area:<b> Proddatur</b></h6>
+            </div>
+        </div>
+    </div>
+    <div id="notifications" class="notifications-container">
+        <h2>Notifications and Alerts</h2>
+        <div class="header">
+                <div class="header-item">
+                <h4>Service No:</h4>
+                <select>
+                    <option value="1722119901">1722119901</option>
+                    <option value="1722119902">1722119902</option>
+                </select>
+                </div>
+                <div class="header-item">
+                    <h4>Year:</h4>
+                    <select>
+                        <option value="2025">2025</option>
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                    </select>
+                </div>
+                <div class="header-item">
+                   <h4>Consumer Name:</h4>
+                   <P>Narasimha Misani</P>
+                </div>
+
+                <div class="header-item">
+                   <h4>Category:</h4>
+                   <p>Domestic</p>
+                </div>   
+        </div>
+            <div class="alert-box">
+            <h4>Alert Logs</h4>
+            <label>From: <input type="date"></label>
+            <label>To: <input type="date"></label>
+            <label>Status: 
+                <select>
+                        <option>Critical</option>
+                        <option>Warning</option>
+                        <option>General</option>
+                        <option>Info</option>
+                </select>
+            </label>
+            <label>Category: 
+                <select>
+                        <option>Meter Alert</option>
+                        <option>User Alert</option>
+                        <option>Bill Alert</option>
+                        <option>Maintainance</option>
+                </select>
+            </label>
+            </div>
+            <div class="table">
+            <table>
+            <tr>
+                <th>Code</th>
+                <th>Description</th>
+                <th>Date & Time</th>
+                <th>Status</th>
+                <th>Cayegory</th>
+            </tr>
+            <tr><td>1032</td><td>Unauthorized access</td><td>Feb 17, 2025 -10:30</td><td>Critical</td><td>Meter Alert</td></tr>
+            <tr><td>1362</td><td>High consumption</td><td>Feb 17,2025 -09:36</td><td>Warning</td><td>User Alert</td></tr>
+            <tr><td>1628</td><td>New Bill Generated</td><td>Feb 16,2025 -15:48</td><td>General</td><td>Bill Alert</td></tr>
+            <tr><td>1963</td><td>Planned Power Cut</td><td>Feb 15,2025 -18:30</td><td>Info</td><td>Maintainance</td></tr>
+            <tr><td>2031</td><td>Power Lost</td><td>Feb 14, 2025 -10:30</td><td>Warning</td><td>Maintainance</td></tr>
+            </table>
+            </div>
+        
+    </div>
+</div>
+</body>
+</html>        
