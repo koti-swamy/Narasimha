@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+
+.sidebar {
+    width: 250px;
+    background: #d5d7db;
+    color: rgb(31, 72, 147);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    padding: 15px;
+    cursor: pointer;
+}
+
+nav ul li.active {
+    background: #1c2e4a;
+    border-radius: 5px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.holiday-section {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.holiday-card {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background: url('C:/Users/mesan/Downloads/holi.jpg') no-repeat center/cover;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-end;
+    padding: 15px;
+    color: white;
+}
+
+.holiday-text {
+    background: rgb(11, 10, 10);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.announcements {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.announcements h2 {
+    margin-bottom: 10px;
+}
+
+.announcements h3 {
+    margin-top: 15px;
+}
+
+.right-panel {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.attendance {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.check-in-btn {
+    background: #748aa2;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.check-in-btn:hover{
+    background: #1481ca; 
+    transform: scale(1.05);
+}
+
+
+.status-box {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+}
